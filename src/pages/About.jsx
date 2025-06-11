@@ -8,7 +8,7 @@ const About = () => {
             <h2>Our Mission</h2>
             <p>Our mission is to spread love, hope, and faith through our actions and teachings.</p>
             <h2>Our History</h2>
-            <p>Founded in [Year], our church has been a place of worship and community for over [Number] years.</p>
+            <p>Founded in 1953, our church has been a place of worship and community for over 70 years.</p>
         </div>
     );
 };
