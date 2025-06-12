@@ -4,13 +4,14 @@ import { MemoryRouter } from 'react-router-dom';
 import Header from './Header';
 
 describe('Header', () => {
-  it('renders the church website header', () => {
+  it('renders the navigation links', () => {
     render(
       <MemoryRouter>
         <Header />
       </MemoryRouter>
     );
-    // Adjust the text below to match your actual header text
-    expect(screen.getByText(/church website/i)).toBeInTheDocument();
+    expect(screen.getByText(/home/i)).toBeInTheDocument();
+    expect(screen.getByText(/about/i)).toBeInTheDocument();
+    expect(screen.getByText(/contact/i)).toBeInTheDocument();
   });
 });
